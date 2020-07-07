@@ -1,0 +1,17 @@
+hr {
+	height: 1px;
+	background-color: #000000;
+	border: none;
+}
+
+.darker {
+	background-color: rgb(214, 214, 214);
+}
+
+.lighter {
+	background-color: rgb(245, 245, 245);
+}
+
+.linker {
+	color: blue;
+}
