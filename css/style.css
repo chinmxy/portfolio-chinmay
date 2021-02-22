@@ -89,3 +89,23 @@ hr {
 		height: 0%;
 	}
 }
+
+.carousel {
+}
+
+.carousel-cell {
+	width: 28%;
+	margin-right: 10px;
+	border-radius: 5px;
+	/* counter-increment: carousel-cell; */
+}
+
+.carousel-cell.is-selected {
+}
+
+/* cell number */
+.carousel-cell:before {
+	display: block;
+	text-align: center;
+	/* content: counter(carousel-cell); */
+}
